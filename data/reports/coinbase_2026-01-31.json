@@ -1,0 +1,272 @@
+{
+  "vasp": "Coinbase",
+  "domain": "https://www.coinbase.com",
+  "audit_timestamp": "2026-01-31T08:43:29.428Z",
+  "analyst": "Cody2 (AI Assistant)",
+  "method": "playwright_chromium",
+  "services": {
+    "spot_trading": {
+      "status": "available",
+      "url": "https://www.coinbase.com/advanced-trade",
+      "screenshot": "data\\vasp_data\\evidence\\coinbase_spot_trading_2026-01-31.png",
+      "matched_keyword": "trade",
+      "notes": "Found via keyword matching: \"trade\"",
+      "confidence": "high"
+    },
+    "margin_trading": {
+      "status": "not_found",
+      "url": null,
+      "screenshot": null,
+      "matched_keyword": null,
+      "notes": "No matches found for keywords: margin, isolated, cross margin, leverage trading",
+      "confidence": "high"
+    },
+    "futures": {
+      "status": "available",
+      "url": "https://www.coinbase.com/derivatives",
+      "screenshot": "data\\vasp_data\\evidence\\coinbase_futures_2026-01-31.png",
+      "matched_keyword": "futures",
+      "notes": "Found via keyword matching: \"futures\"",
+      "confidence": "high"
+    },
+    "options": {
+      "status": "not_found",
+      "url": null,
+      "screenshot": null,
+      "matched_keyword": null,
+      "notes": "No matches found for keywords: options, call, put, option trading",
+      "confidence": "high"
+    },
+    "leveraged_tokens": {
+      "status": "not_found",
+      "url": null,
+      "screenshot": null,
+      "matched_keyword": null,
+      "notes": "No matches found for keywords: leveraged tokens, etf, btcdown, btcup, 3x, 5x",
+      "confidence": "high"
+    },
+    "otc_desk": {
+      "status": "not_found",
+      "url": null,
+      "screenshot": null,
+      "matched_keyword": null,
+      "notes": "No matches found for keywords: otc, over-the-counter, block trade, institutional desk",
+      "confidence": "high"
+    },
+    "trading_bots": {
+      "status": "not_found",
+      "url": null,
+      "screenshot": null,
+      "matched_keyword": null,
+      "notes": "No matches found for keywords: trading bots, strategy trading, automated trading, bot",
+      "confidence": "high"
+    },
+    "copy_trading": {
+      "status": "not_found",
+      "url": null,
+      "screenshot": null,
+      "matched_keyword": null,
+      "notes": "No matches found for keywords: copy trading, social trading, copy trade, follow traders",
+      "confidence": "high"
+    },
+    "grid_trading": {
+      "status": "not_found",
+      "url": null,
+      "screenshot": null,
+      "matched_keyword": null,
+      "notes": "No matches found for keywords: grid, grid bot, futures grid, spot grid",
+      "confidence": "high"
+    },
+    "auto_investing": {
+      "status": "not_found",
+      "url": null,
+      "screenshot": null,
+      "matched_keyword": null,
+      "notes": "No matches found for keywords: auto invest, dca, recurring buy, dollar cost averaging, automatic",
+      "confidence": "high"
+    },
+    "crypto_staking": {
+      "status": "available",
+      "url": "https://www.coinbase.com/wallet",
+      "screenshot": "data\\vasp_data\\evidence\\coinbase_crypto_staking_2026-01-31.png",
+      "matched_keyword": "pos",
+      "notes": "Found via keyword matching: \"pos\"",
+      "confidence": "high"
+    },
+    "saving_accounts": {
+      "status": "available",
+      "url": "https://www.coinbase.com/wallet",
+      "screenshot": "data\\vasp_data\\evidence\\coinbase_saving_accounts_2026-01-31.png",
+      "matched_keyword": "earn",
+      "notes": "Found via keyword matching: \"earn\"",
+      "confidence": "high"
+    },
+    "crypto_loans": {
+      "status": "not_found",
+      "url": null,
+      "screenshot": null,
+      "matched_keyword": null,
+      "notes": "No matches found for keywords: loan, borrow, collateral, crypto loan",
+      "confidence": "high"
+    },
+    "cloud_mining": {
+      "status": "not_found",
+      "url": null,
+      "screenshot": null,
+      "matched_keyword": null,
+      "notes": "No matches found for keywords: cloud mining, mining pool, hash power",
+      "confidence": "high"
+    },
+    "yield_farming": {
+      "status": "not_found",
+      "url": null,
+      "screenshot": null,
+      "matched_keyword": null,
+      "notes": "No matches found for keywords: yield farming, liquidity farming, farm, defi earn",
+      "confidence": "high"
+    },
+    "liquidity_pools": {
+      "status": "available",
+      "url": "https://www.coinbase.com/affiliates",
+      "screenshot": "data\\vasp_data\\evidence\\coinbase_liquidity_pools_2026-01-31.png",
+      "matched_keyword": "lp",
+      "notes": "Found via keyword matching: \"lp\"",
+      "confidence": "high"
+    },
+    "launchpad": {
+      "status": "not_found",
+      "url": null,
+      "screenshot": null,
+      "matched_keyword": null,
+      "notes": "No matches found for keywords: launchpad, ieo, initial exchange, token launch",
+      "confidence": "high"
+    },
+    "launchpool": {
+      "status": "not_found",
+      "url": null,
+      "screenshot": null,
+      "matched_keyword": null,
+      "notes": "No matches found for keywords: launchpool, launch pool",
+      "confidence": "high"
+    },
+    "airdrops": {
+      "status": "not_found",
+      "url": null,
+      "screenshot": null,
+      "matched_keyword": null,
+      "notes": "No matches found for keywords: airdrop, reward hub, free token, candy drop",
+      "confidence": "high"
+    },
+    "nft_marketplace": {
+      "status": "not_found",
+      "url": null,
+      "screenshot": null,
+      "matched_keyword": null,
+      "notes": "No matches found for keywords: nft, non-fungible, nft marketplace",
+      "confidence": "high"
+    },
+    "nft_loans": {
+      "status": "not_found",
+      "url": null,
+      "screenshot": null,
+      "matched_keyword": null,
+      "notes": "No matches found for keywords: nft loan, nft collateral, nft lending",
+      "confidence": "high"
+    },
+    "nft_staking": {
+      "status": "not_found",
+      "url": null,
+      "screenshot": null,
+      "matched_keyword": null,
+      "notes": "No matches found for keywords: nft staking, nft stake, nft rewards",
+      "confidence": "high"
+    },
+    "crypto_cards": {
+      "status": "available",
+      "url": "https://www.coinbase.com/creditcard",
+      "screenshot": "data\\vasp_data\\evidence\\coinbase_crypto_cards_2026-01-31.png",
+      "matched_keyword": "card",
+      "notes": "Found via keyword matching: \"card\"",
+      "confidence": "high"
+    },
+    "gift_cards": {
+      "status": "not_found",
+      "url": null,
+      "screenshot": null,
+      "matched_keyword": null,
+      "notes": "No matches found for keywords: gift card, voucher, red envelope, crypto gift",
+      "confidence": "high"
+    },
+    "custody_services": {
+      "status": "available",
+      "url": "https://www.coinbase.com/institutional",
+      "screenshot": "data\\vasp_data\\evidence\\coinbase_custody_services_2026-01-31.png",
+      "matched_keyword": "institutional",
+      "notes": "Found via keyword matching: \"institutional\"",
+      "confidence": "high"
+    },
+    "dapp_connectivity": {
+      "status": "available",
+      "url": "https://www.coinbase.com/web3",
+      "screenshot": "data\\vasp_data\\evidence\\coinbase_dapp_connectivity_2026-01-31.png",
+      "matched_keyword": "web3",
+      "notes": "Found via keyword matching: \"web3\"",
+      "confidence": "high"
+    },
+    "referral_program": {
+      "status": "available",
+      "url": "https://www.coinbase.com/affiliates",
+      "screenshot": "data\\vasp_data\\evidence\\coinbase_referral_program_2026-01-31.png",
+      "matched_keyword": "affiliate",
+      "notes": "Found via keyword matching: \"affiliate\"",
+      "confidence": "high"
+    },
+    "educational_services": {
+      "status": "available",
+      "url": "https://www.coinbase.com/learn",
+      "screenshot": "data\\vasp_data\\evidence\\coinbase_educational_services_2026-01-31.png",
+      "matched_keyword": "learn",
+      "notes": "Found via keyword matching: \"learn\"",
+      "confidence": "high"
+    },
+    "learn_and_earn": {
+      "status": "available",
+      "url": "https://www.coinbase.com/earn",
+      "screenshot": "data\\vasp_data\\evidence\\coinbase_learn_and_earn_2026-01-31.png",
+      "matched_keyword": "earn rewards",
+      "notes": "Found via keyword matching: \"earn rewards\"",
+      "confidence": "high"
+    },
+    "tax_assistance": {
+      "status": "available",
+      "url": "https://www.coinbase.com/learn/crypto-basics/understanding-crypto-taxes",
+      "screenshot": "data\\vasp_data\\evidence\\coinbase_tax_assistance_2026-01-31.png",
+      "matched_keyword": "taxes",
+      "notes": "Found via keyword matching: \"taxes\"",
+      "confidence": "high"
+    },
+    "gambling": {
+      "status": "not_found",
+      "url": null,
+      "screenshot": null,
+      "matched_keyword": null,
+      "notes": "No matches found for keywords: casino, gambling, betting, gamblefi, gaming",
+      "confidence": "high"
+    },
+    "prediction_markets": {
+      "status": "not_found",
+      "url": null,
+      "screenshot": null,
+      "matched_keyword": null,
+      "notes": "No matches found for keywords: prediction, forecast, predict, prediction market",
+      "confidence": "high"
+    }
+  },
+  "summary": {
+    "total_services_checked": 32,
+    "services_available": 12,
+    "services_not_found": 20,
+    "services_uncertain": 0,
+    "coverage_percentage": 37.5
+  }
+}

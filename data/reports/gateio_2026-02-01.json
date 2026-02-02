@@ -1,0 +1,272 @@
+{
+  "vaspName": "Gate.io",
+  "url": "https://www.gate.com/",
+  "auditDate": "2026-02-01",
+  "totalServicesChecked": 32,
+  "servicesFound": 17,
+  "servicesNotFound": 15,
+  "coverageRate": "53.1%",
+  "services": [
+    {
+      "name": "Spot Trading",
+      "status": "CONFIRMED",
+      "url": "https://www.gate.com/trade/BTC_USDT",
+      "screenshot": "data/vasp_data/evidence/gateio_spot_trading_2026-02-01.png",
+      "confidence": "HIGH"
+    },
+    {
+      "name": "Margin Trading",
+      "status": "CONFIRMED",
+      "url": "https://www.gate.com/trade/BTC_USDT?type=cross",
+      "screenshot": "data/vasp_data/evidence/gateio_margin_trading_2026-02-01.png",
+      "confidence": "HIGH",
+      "notes": "Cross and Isolated margin modes available"
+    },
+    {
+      "name": "Futures",
+      "status": "CONFIRMED",
+      "url": "https://www.gate.com/futures",
+      "screenshot": "data/vasp_data/evidence/gateio_futures_2026-02-01.jpg",
+      "confidence": "HIGH",
+      "notes": "USDT-M, BTC-M, Perpetual and Delivery contracts"
+    },
+    {
+      "name": "Options",
+      "status": "CONFIRMED",
+      "url": "https://www.gate.com/options/BTC_USDT",
+      "screenshot": "data/vasp_data/evidence/gateio_options_2026-02-01.png",
+      "confidence": "HIGH",
+      "notes": "Full options chain with Calls, Puts, Strike Prices, and Expiration Dates"
+    },
+    {
+      "name": "Leveraged Tokens",
+      "status": "CONFIRMED",
+      "url": "https://www.gate.com/leveraged-etf",
+      "screenshot": "data/vasp_data/evidence/gateio_leveraged_tokens_2026-02-01.jpg",
+      "confidence": "HIGH",
+      "notes": "ETF Leveraged Tokens with 3L/3S/5L/5S variants"
+    },
+    {
+      "name": "OTC Desk",
+      "status": "CONFIRMED",
+      "url": "https://www.gate.com/otc",
+      "screenshot": "data/vasp_data/evidence/gateio_otc_desk_2026-02-01.jpg",
+      "confidence": "HIGH",
+      "notes": "Stablecoin Swap OTC desk with institutional volumes"
+    },
+    {
+      "name": "Trading Bots",
+      "status": "NOT_FOUND",
+      "url": "N/A",
+      "confidence": "HIGH",
+      "notes": "Page returned 404 error"
+    },
+    {
+      "name": "Copy Trading",
+      "status": "NOT_FOUND",
+      "url": "N/A",
+      "confidence": "HIGH",
+      "notes": "Page returned 404 error - may require authentication"
+    },
+    {
+      "name": "Grid Trading",
+      "status": "NOT_FOUND",
+      "url": "N/A",
+      "confidence": "HIGH",
+      "notes": "Page returned 404 error"
+    },
+    {
+      "name": "Auto-Investing (DCA)",
+      "status": "NOT_FOUND",
+      "url": "N/A",
+      "confidence": "HIGH",
+      "notes": "Page returned 404 error"
+    },
+    {
+      "name": "P2P Platform",
+      "status": "CONFIRMED",
+      "url": "https://www.gate.com/p2p",
+      "screenshot": "data/vasp_data/evidence/gateio_p2p_2026-02-01.jpg",
+      "confidence": "HIGH",
+      "notes": "Full P2P trading platform with multiple payment methods"
+    },
+    {
+      "name": "Crypto Staking",
+      "status": "CONFIRMED",
+      "url": "https://www.gate.com/staking",
+      "screenshot": "data/vasp_data/evidence/gateio_staking_2026-02-01.jpg",
+      "confidence": "HIGH",
+      "notes": "PoS staking with Tokenized and Locked staking options"
+    },
+    {
+      "name": "Saving Accounts",
+      "status": "CONFIRMED",
+      "url": "https://www.gate.com/simple-earn",
+      "screenshot": "data/vasp_data/evidence/gateio_savings_2026-02-01.jpg",
+      "confidence": "HIGH",
+      "notes": "Simple Earn product with flexible and fixed terms"
+    },
+    {
+      "name": "Crypto Loans",
+      "status": "NOT_FOUND",
+      "url": "N/A",
+      "confidence": "HIGH",
+      "notes": "Page returned 404 error - may be integrated into other services"
+    },
+    {
+      "name": "Flash Loans",
+      "status": "NOT_FOUND",
+      "url": "N/A",
+      "confidence": "HIGH",
+      "notes": "Page returned 404 error"
+    },
+    {
+      "name": "Unsecured Loans",
+      "status": "NOT_FOUND",
+      "url": "N/A",
+      "confidence": "HIGH",
+      "notes": "No dedicated page found"
+    },
+    {
+      "name": "Cloud Mining",
+      "status": "NOT_FOUND",
+      "url": "N/A",
+      "confidence": "HIGH",
+      "notes": "Page returned 404 error"
+    },
+    {
+      "name": "Yield Farming",
+      "status": "NOT_FOUND",
+      "url": "N/A",
+      "confidence": "HIGH",
+      "notes": "No dedicated page found"
+    },
+    {
+      "name": "Liquidity Pools",
+      "status": "NOT_FOUND",
+      "url": "N/A",
+      "confidence": "HIGH",
+      "notes": "Redirected to Simple Earn page"
+    },
+    {
+      "name": "Launchpad",
+      "status": "CONFIRMED",
+      "url": "https://www.gate.com/launchpad",
+      "screenshot": "data/vasp_data/evidence/gateio_launchpad_2026-02-01.jpg",
+      "confidence": "HIGH",
+      "notes": "Token launch platform with IDO/IFO features"
+    },
+    {
+      "name": "Launchpool",
+      "status": "CONFIRMED",
+      "url": "https://www.gate.com/launchpool",
+      "screenshot": "data/vasp_data/evidence/gateio_launchpool_2026-02-01.jpg",
+      "confidence": "HIGH",
+      "notes": "Stake assets to earn new tokens"
+    },
+    {
+      "name": "Airdrops",
+      "status": "NOT_FOUND",
+      "url": "N/A",
+      "confidence": "HIGH",
+      "notes": "Page returned 404 error - may be integrated into other services"
+    },
+    {
+      "name": "NFT Marketplace",
+      "status": "CONFIRMED",
+      "url": "https://www.gate.com/nft",
+      "screenshot": "data/vasp_data/evidence/gateio_nft_marketplace_2026-02-01.jpg",
+      "confidence": "HIGH",
+      "notes": "Full NFT marketplace with minting, buying, selling"
+    },
+    {
+      "name": "NFT Loans",
+      "status": "NOT_FOUND",
+      "url": "N/A",
+      "confidence": "HIGH",
+      "notes": "No dedicated page found"
+    },
+    {
+      "name": "NFT Staking",
+      "status": "NOT_FOUND",
+      "url": "N/A",
+      "confidence": "HIGH",
+      "notes": "No dedicated page found"
+    },
+    {
+      "name": "Gift Card / Red Envelope",
+      "status": "CONFIRMED",
+      "url": "https://www.gate.com/gift-card",
+      "screenshot": "data/vasp_data/evidence/gateio_gift_card_2026-02-01.jpg",
+      "confidence": "HIGH",
+      "notes": "Gate Pay gift card marketplace"
+    },
+    {
+      "name": "Crypto Debit/Credit Cards",
+      "status": "CONFIRMED",
+      "url": "https://www.gate.com/card",
+      "screenshot": "data/vasp_data/evidence/gateio_crypto_card_2026-02-01.jpg",
+      "confidence": "HIGH",
+      "notes": "Gate Card - Mastercard branded crypto debit card"
+    },
+    {
+      "name": "Custody Services",
+      "status": "NOT_FOUND",
+      "url": "N/A",
+      "confidence": "HIGH",
+      "notes": "Page returned 404 error - may require institutional account"
+    },
+    {
+      "name": "dApp Connectivity",
+      "status": "CONFIRMED",
+      "url": "https://web3.gate.com/",
+      "screenshot": "data/vasp_data/evidence/gateio_web3_dapp_2026-02-01.png",
+      "confidence": "HIGH",
+      "notes": "Gate DEX - Web3 wallet with dApp connectivity"
+    },
+    {
+      "name": "Referral/Affiliate Programs",
+      "status": "CONFIRMED",
+      "url": "https://www.gate.com/referral/super-rebate",
+      "screenshot": "data/vasp_data/evidence/gateio_referral_2026-02-01.jpg",
+      "confidence": "HIGH",
+      "notes": "Up to 40% commission referral program"
+    },
+    {
+      "name": "Educational Services",
+      "status": "CONFIRMED",
+      "url": "https://www.gate.com/learn",
+      "screenshot": "data/vasp_data/evidence/gateio_educational_2026-02-01.jpg",
+      "confidence": "HIGH",
+      "notes": "Gate Learn platform with courses, articles, research, glossary"
+    },
+    {
+      "name": "Learn and Earn",
+      "status": "NOT_FOUND",
+      "url": "N/A",
+      "confidence": "HIGH",
+      "notes": "Page returned 404 error"
+    },
+    {
+      "name": "Tax Assistance",
+      "status": "NOT_FOUND",
+      "url": "N/A",
+      "confidence": "HIGH",
+      "notes": "Page returned 404 error"
+    },
+    {
+      "name": "Gambling",
+      "status": "NOT_FOUND",
+      "url": "N/A",
+      "confidence": "HIGH",
+      "notes": "Page returned 404 error - not offered"
+    },
+    {
+      "name": "Prediction Markets",
+      "status": "NOT_FOUND",
+      "url": "N/A",
+      "confidence": "HIGH",
+      "notes": "Page returned 404 error - Price Prediction link is for analytics, not prediction markets"
+    }
+  ]
+}

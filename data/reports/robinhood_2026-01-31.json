@@ -1,0 +1,272 @@
+{
+  "vasp": "Robinhood",
+  "domain": "https://robinhood.com/",
+  "audit_timestamp": "2026-01-31T21:19:15.516Z",
+  "analyst": "Cody2 (AI Assistant)",
+  "method": "playwright_chromium",
+  "services": {
+    "spot_trading": {
+      "status": "available",
+      "url": "https://robinhood.com/sitemap-marketing.html",
+      "screenshot": "data\\vasp_data\\evidence\\robinhood_spot_trading_2026-01-31.png",
+      "matched_keyword": "market",
+      "notes": "Found via keyword matching: \"market\"",
+      "confidence": "high"
+    },
+    "margin_trading": {
+      "status": "not_found",
+      "url": null,
+      "screenshot": null,
+      "matched_keyword": null,
+      "notes": "No matches found for keywords: margin, isolated, cross margin, leverage trading",
+      "confidence": "high"
+    },
+    "futures": {
+      "status": "available",
+      "url": "https://robinhood.com/eu/lt/perpetual-futures?lang=lt",
+      "screenshot": "data\\vasp_data\\evidence\\robinhood_futures_2026-01-31.png",
+      "matched_keyword": "sužinokite daugiau",
+      "notes": "Found via keyword matching: \"sužinokite daugiau\"",
+      "confidence": "high"
+    },
+    "options": {
+      "status": "not_found",
+      "url": null,
+      "screenshot": null,
+      "matched_keyword": null,
+      "notes": "No matches found for keywords: options, call, put, option trading",
+      "confidence": "high"
+    },
+    "leveraged_tokens": {
+      "status": "uncertain",
+      "url": "https://cdn.robinhood.com/assets/robinhood/legal/stock_and_etf_tokens_kid_lt.pdf",
+      "screenshot": null,
+      "matched_keyword": "pagrindinės informacijos dokumentu",
+      "notes": "Found in navigation but page load failed: page.goto: Download is starting\nCall log:\n\u001b[2m  - navigating to \"https://cdn.robinhood.com/assets/robinhood/legal/stock_and_etf_tokens_kid_lt.pdf\", waiting until \"domcontentloaded\"\u001b[22m\n",
+      "confidence": "medium"
+    },
+    "otc_desk": {
+      "status": "not_found",
+      "url": null,
+      "screenshot": null,
+      "matched_keyword": null,
+      "notes": "No matches found for keywords: otc, over-the-counter, block trade, institutional desk",
+      "confidence": "high"
+    },
+    "trading_bots": {
+      "status": "not_found",
+      "url": null,
+      "screenshot": null,
+      "matched_keyword": null,
+      "notes": "No matches found for keywords: trading bots, strategy trading, automated trading, bot",
+      "confidence": "high"
+    },
+    "copy_trading": {
+      "status": "not_found",
+      "url": null,
+      "screenshot": null,
+      "matched_keyword": null,
+      "notes": "No matches found for keywords: copy trading, social trading, copy trade, follow traders",
+      "confidence": "high"
+    },
+    "grid_trading": {
+      "status": "not_found",
+      "url": null,
+      "screenshot": null,
+      "matched_keyword": null,
+      "notes": "No matches found for keywords: grid, grid bot, futures grid, spot grid",
+      "confidence": "high"
+    },
+    "auto_investing": {
+      "status": "not_found",
+      "url": null,
+      "screenshot": null,
+      "matched_keyword": null,
+      "notes": "No matches found for keywords: auto invest, dca, recurring buy, dollar cost averaging, automatic",
+      "confidence": "high"
+    },
+    "crypto_staking": {
+      "status": "available",
+      "url": "https://robinhood.com/eu/lt/crypto/staking/",
+      "screenshot": "data\\vasp_data\\evidence\\robinhood_crypto_staking_2026-01-31.png",
+      "matched_keyword": "užstatymas (\"staking\")",
+      "notes": "Found via keyword matching: \"užstatymas (\"staking\")\"",
+      "confidence": "high"
+    },
+    "saving_accounts": {
+      "status": "not_found",
+      "url": null,
+      "screenshot": null,
+      "matched_keyword": null,
+      "notes": "No matches found for keywords: earn, flexible, savings, simple earn, interest",
+      "confidence": "high"
+    },
+    "crypto_loans": {
+      "status": "not_found",
+      "url": null,
+      "screenshot": null,
+      "matched_keyword": null,
+      "notes": "No matches found for keywords: loan, borrow, collateral, crypto loan",
+      "confidence": "high"
+    },
+    "cloud_mining": {
+      "status": "not_found",
+      "url": null,
+      "screenshot": null,
+      "matched_keyword": null,
+      "notes": "No matches found for keywords: cloud mining, mining pool, hash power",
+      "confidence": "high"
+    },
+    "yield_farming": {
+      "status": "not_found",
+      "url": null,
+      "screenshot": null,
+      "matched_keyword": null,
+      "notes": "No matches found for keywords: yield farming, liquidity farming, farm, defi earn",
+      "confidence": "high"
+    },
+    "liquidity_pools": {
+      "status": "not_found",
+      "url": null,
+      "screenshot": null,
+      "matched_keyword": null,
+      "notes": "No matches found for keywords: liquidity pool, swap pool, liquidity provider, lp, amm",
+      "confidence": "high"
+    },
+    "launchpad": {
+      "status": "not_found",
+      "url": null,
+      "screenshot": null,
+      "matched_keyword": null,
+      "notes": "No matches found for keywords: launchpad, ieo, initial exchange, token launch",
+      "confidence": "high"
+    },
+    "launchpool": {
+      "status": "not_found",
+      "url": null,
+      "screenshot": null,
+      "matched_keyword": null,
+      "notes": "No matches found for keywords: launchpool, launch pool",
+      "confidence": "high"
+    },
+    "airdrops": {
+      "status": "not_found",
+      "url": null,
+      "screenshot": null,
+      "matched_keyword": null,
+      "notes": "No matches found for keywords: airdrop, reward hub, free token, candy drop",
+      "confidence": "high"
+    },
+    "nft_marketplace": {
+      "status": "not_found",
+      "url": null,
+      "screenshot": null,
+      "matched_keyword": null,
+      "notes": "No matches found for keywords: nft, non-fungible, nft marketplace",
+      "confidence": "high"
+    },
+    "nft_loans": {
+      "status": "not_found",
+      "url": null,
+      "screenshot": null,
+      "matched_keyword": null,
+      "notes": "No matches found for keywords: nft loan, nft collateral, nft lending",
+      "confidence": "high"
+    },
+    "nft_staking": {
+      "status": "not_found",
+      "url": null,
+      "screenshot": null,
+      "matched_keyword": null,
+      "notes": "No matches found for keywords: nft staking, nft stake, nft rewards",
+      "confidence": "high"
+    },
+    "crypto_cards": {
+      "status": "not_found",
+      "url": null,
+      "screenshot": null,
+      "matched_keyword": null,
+      "notes": "No matches found for keywords: card, visa, mastercard, debit, crypto card",
+      "confidence": "high"
+    },
+    "gift_cards": {
+      "status": "not_found",
+      "url": null,
+      "screenshot": null,
+      "matched_keyword": null,
+      "notes": "No matches found for keywords: gift card, voucher, red envelope, crypto gift",
+      "confidence": "high"
+    },
+    "custody_services": {
+      "status": "not_found",
+      "url": null,
+      "screenshot": null,
+      "matched_keyword": null,
+      "notes": "No matches found for keywords: custody, institutional, vault, prime",
+      "confidence": "high"
+    },
+    "dapp_connectivity": {
+      "status": "available",
+      "url": "https://x.com/robinhoodapp_eu",
+      "screenshot": "data\\vasp_data\\evidence\\robinhood_dapp_connectivity_2026-01-31.png",
+      "matched_keyword": "dapp",
+      "notes": "Found via keyword matching: \"dapp\"",
+      "confidence": "high"
+    },
+    "referral_program": {
+      "status": "not_found",
+      "url": null,
+      "screenshot": null,
+      "matched_keyword": null,
+      "notes": "No matches found for keywords: referral, affiliate, invite, refer friend",
+      "confidence": "high"
+    },
+    "educational_services": {
+      "status": "not_found",
+      "url": null,
+      "screenshot": null,
+      "matched_keyword": null,
+      "notes": "No matches found for keywords: learn, academy, education, tutorial, guide",
+      "confidence": "high"
+    },
+    "learn_and_earn": {
+      "status": "not_found",
+      "url": null,
+      "screenshot": null,
+      "matched_keyword": null,
+      "notes": "No matches found for keywords: learn and earn, learn & earn, earn rewards",
+      "confidence": "high"
+    },
+    "tax_assistance": {
+      "status": "not_found",
+      "url": null,
+      "screenshot": null,
+      "matched_keyword": null,
+      "notes": "No matches found for keywords: tax, tax report, tax api, 1099, tax tool",
+      "confidence": "high"
+    },
+    "gambling": {
+      "status": "not_found",
+      "url": null,
+      "screenshot": null,
+      "matched_keyword": null,
+      "notes": "No matches found for keywords: casino, gambling, betting, gamblefi, gaming",
+      "confidence": "high"
+    },
+    "prediction_markets": {
+      "status": "not_found",
+      "url": null,
+      "screenshot": null,
+      "matched_keyword": null,
+      "notes": "No matches found for keywords: prediction, forecast, predict, prediction market",
+      "confidence": "high"
+    }
+  },
+  "summary": {
+    "total_services_checked": 32,
+    "services_available": 4,
+    "services_not_found": 27,
+    "services_uncertain": 1,
+    "coverage_percentage": 12.5
+  }
+}

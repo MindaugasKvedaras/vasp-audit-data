@@ -1,0 +1,272 @@
+{
+  "vasp": "Bitget",
+  "domain": "https://www.bitget.com",
+  "audit_timestamp": "2026-01-31T23:22:00.664Z",
+  "analyst": "Cody2 (AI Assistant)",
+  "method": "playwright_chromium",
+  "services": {
+    "spot_trading": {
+      "status": "available",
+      "url": "https://www.bitget.com/markets",
+      "screenshot": "data\\vasp_data\\evidence\\bitget_spot_trading_2026-01-31.png",
+      "matched_keyword": "markets",
+      "notes": "Found via keyword matching: \"markets\"",
+      "confidence": "high"
+    },
+    "margin_trading": {
+      "status": "available",
+      "url": "https://www.bitget.com/spot/BTCUSDT?type=cross",
+      "screenshot": "data\\vasp_data\\evidence\\bitget_margin_trading_2026-01-31.png",
+      "matched_keyword": "margin",
+      "notes": "Found via keyword matching: \"margin\"",
+      "confidence": "high"
+    },
+    "futures": {
+      "status": "uncertain",
+      "url": "https://www.bitget.com/futures/usdt/BTCUSDT",
+      "screenshot": null,
+      "matched_keyword": "futures",
+      "notes": "Found in navigation but page load failed: page.goto: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.bitget.com/futures/usdt/BTCUSDT\", waiting until \"networkidle\"\u001b[22m\n",
+      "confidence": "medium"
+    },
+    "options": {
+      "status": "not_found",
+      "url": null,
+      "screenshot": null,
+      "matched_keyword": null,
+      "notes": "No matches found for keywords: options, call option, put option, option trading, strike price",
+      "confidence": "high"
+    },
+    "leveraged_tokens": {
+      "status": "available",
+      "url": "https://www.bitget.com/price/bitcoin/etf",
+      "screenshot": "data\\vasp_data\\evidence\\bitget_leveraged_tokens_2026-01-31.png",
+      "matched_keyword": "bitcoin etf",
+      "notes": "Found via keyword matching: \"bitcoin etf\"",
+      "confidence": "high"
+    },
+    "otc_desk": {
+      "status": "available",
+      "url": "https://www.bitget.com/convert/USDT/BTC",
+      "screenshot": "data\\vasp_data\\evidence\\bitget_otc_desk_2026-01-31.png",
+      "matched_keyword": "convert & block trade",
+      "notes": "Found via keyword matching: \"convert & block trade\"",
+      "confidence": "high"
+    },
+    "trading_bots": {
+      "status": "available",
+      "url": "https://www.bitget.com/copy-trading/strategy",
+      "screenshot": "data\\vasp_data\\evidence\\bitget_trading_bots_2026-01-31.png",
+      "matched_keyword": "bot copy trading",
+      "notes": "Found via keyword matching: \"bot copy trading\"",
+      "confidence": "high"
+    },
+    "copy_trading": {
+      "status": "available",
+      "url": "https://www.bitget.com/copy-trading/spot",
+      "screenshot": "data\\vasp_data\\evidence\\bitget_copy_trading_2026-01-31.png",
+      "matched_keyword": "spot copy trading",
+      "notes": "Found via keyword matching: \"spot copy trading\"",
+      "confidence": "high"
+    },
+    "grid_trading": {
+      "status": "not_found",
+      "url": null,
+      "screenshot": null,
+      "matched_keyword": null,
+      "notes": "No matches found for keywords: grid, grid bot, futures grid, spot grid",
+      "confidence": "high"
+    },
+    "auto_investing": {
+      "status": "not_found",
+      "url": null,
+      "screenshot": null,
+      "matched_keyword": null,
+      "notes": "No matches found for keywords: auto invest, dca, recurring buy, dollar cost averaging, automatic",
+      "confidence": "high"
+    },
+    "crypto_staking": {
+      "status": "not_found",
+      "url": null,
+      "screenshot": null,
+      "matched_keyword": null,
+      "notes": "No matches found for keywords: staking, stake, validator, pos, proof of stake",
+      "confidence": "high"
+    },
+    "saving_accounts": {
+      "status": "available",
+      "url": "https://www.bitget.com/earning",
+      "screenshot": "data\\vasp_data\\evidence\\bitget_saving_accounts_2026-01-31.png",
+      "matched_keyword": "earn",
+      "notes": "Found via keyword matching: \"earn\"",
+      "confidence": "high"
+    },
+    "crypto_loans": {
+      "status": "not_found",
+      "url": null,
+      "screenshot": null,
+      "matched_keyword": null,
+      "notes": "No matches found for keywords: loan, borrow, collateral, crypto loan",
+      "confidence": "high"
+    },
+    "cloud_mining": {
+      "status": "not_found",
+      "url": null,
+      "screenshot": null,
+      "matched_keyword": null,
+      "notes": "No matches found for keywords: cloud mining, mining pool, hash power",
+      "confidence": "high"
+    },
+    "yield_farming": {
+      "status": "not_found",
+      "url": null,
+      "screenshot": null,
+      "matched_keyword": null,
+      "notes": "No matches found for keywords: yield farming, liquidity farming, farm, defi earn",
+      "confidence": "high"
+    },
+    "liquidity_pools": {
+      "status": "available",
+      "url": "https://www.bitget.com/support",
+      "screenshot": "data\\vasp_data\\evidence\\bitget_liquidity_pools_2026-01-31.png",
+      "matched_keyword": "help center",
+      "notes": "Found via keyword matching: \"help center\"",
+      "confidence": "high"
+    },
+    "launchpad": {
+      "status": "not_found",
+      "url": null,
+      "screenshot": null,
+      "matched_keyword": null,
+      "notes": "No matches found for keywords: launchpad, ieo, initial exchange, token launch",
+      "confidence": "high"
+    },
+    "launchpool": {
+      "status": "not_found",
+      "url": null,
+      "screenshot": null,
+      "matched_keyword": null,
+      "notes": "No matches found for keywords: launchpool, launch pool",
+      "confidence": "high"
+    },
+    "airdrops": {
+      "status": "available",
+      "url": "https://www.bitget.com/airdrop",
+      "screenshot": "data\\vasp_data\\evidence\\bitget_airdrops_2026-01-31.png",
+      "matched_keyword": "airdrop library",
+      "notes": "Found via keyword matching: \"airdrop library\"",
+      "confidence": "high"
+    },
+    "nft_marketplace": {
+      "status": "not_found",
+      "url": null,
+      "screenshot": null,
+      "matched_keyword": null,
+      "notes": "No matches found for keywords: nft, non-fungible, nft marketplace",
+      "confidence": "high"
+    },
+    "nft_loans": {
+      "status": "not_found",
+      "url": null,
+      "screenshot": null,
+      "matched_keyword": null,
+      "notes": "No matches found for keywords: nft loan, nft collateral, nft lending",
+      "confidence": "high"
+    },
+    "nft_staking": {
+      "status": "not_found",
+      "url": null,
+      "screenshot": null,
+      "matched_keyword": null,
+      "notes": "No matches found for keywords: nft staking, nft stake, nft rewards",
+      "confidence": "high"
+    },
+    "crypto_cards": {
+      "status": "not_found",
+      "url": null,
+      "screenshot": null,
+      "matched_keyword": null,
+      "notes": "No matches found for keywords: crypto card, debit card, credit card, visa card, mastercard card, payment card, physical card, virtual card",
+      "confidence": "high"
+    },
+    "gift_cards": {
+      "status": "not_found",
+      "url": null,
+      "screenshot": null,
+      "matched_keyword": null,
+      "notes": "No matches found for keywords: gift card, voucher, red envelope, crypto gift",
+      "confidence": "high"
+    },
+    "custody_services": {
+      "status": "available",
+      "url": "https://www.bitget.com/vip-institutional-services",
+      "screenshot": "data\\vasp_data\\evidence\\bitget_custody_services_2026-01-31.png",
+      "matched_keyword": "institutional services",
+      "notes": "Found via keyword matching: \"institutional services\"",
+      "confidence": "high"
+    },
+    "dapp_connectivity": {
+      "status": "available",
+      "url": "https://web3.bitget.com/en",
+      "screenshot": "data\\vasp_data\\evidence\\bitget_dapp_connectivity_2026-01-31.png",
+      "matched_keyword": "web3 wallet",
+      "notes": "Found via keyword matching: \"web3 wallet\"",
+      "confidence": "high"
+    },
+    "referral_program": {
+      "status": "available",
+      "url": "https://www.bitget.com/affiliates",
+      "screenshot": "data\\vasp_data\\evidence\\bitget_referral_program_2026-01-31.png",
+      "matched_keyword": "affiliate program",
+      "notes": "Found via keyword matching: \"affiliate program\"",
+      "confidence": "high"
+    },
+    "educational_services": {
+      "status": "available",
+      "url": "https://www.bitget.com/academy",
+      "screenshot": "data\\vasp_data\\evidence\\bitget_educational_services_2026-01-31.png",
+      "matched_keyword": "bitget academy",
+      "notes": "Found via keyword matching: \"bitget academy\"",
+      "confidence": "high"
+    },
+    "learn_and_earn": {
+      "status": "not_found",
+      "url": null,
+      "screenshot": null,
+      "matched_keyword": null,
+      "notes": "No matches found for keywords: learn and earn, learn & earn, earn rewards",
+      "confidence": "high"
+    },
+    "tax_assistance": {
+      "status": "available",
+      "url": "https://www.bitget.com/taxes-api",
+      "screenshot": "data\\vasp_data\\evidence\\bitget_tax_assistance_2026-01-31.png",
+      "matched_keyword": "tax filing api",
+      "notes": "Found via keyword matching: \"tax filing api\"",
+      "confidence": "high"
+    },
+    "gambling": {
+      "status": "not_found",
+      "url": null,
+      "screenshot": null,
+      "matched_keyword": null,
+      "notes": "No matches found for keywords: casino, gambling, betting, gamblefi, gaming",
+      "confidence": "high"
+    },
+    "prediction_markets": {
+      "status": "not_found",
+      "url": null,
+      "screenshot": null,
+      "matched_keyword": null,
+      "notes": "No matches found for keywords: prediction, forecast, predict, prediction market",
+      "confidence": "high"
+    }
+  },
+  "summary": {
+    "total_services_checked": 32,
+    "services_available": 14,
+    "services_not_found": 17,
+    "services_uncertain": 1,
+    "coverage_percentage": 43.8
+  }
+}

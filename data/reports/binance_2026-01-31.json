@@ -1,0 +1,272 @@
+{
+  "vasp": "Binance",
+  "domain": "https://www.binance.com/en",
+  "audit_timestamp": "2026-01-31T14:37:26.001Z",
+  "analyst": "Cody2 (AI Assistant)",
+  "method": "playwright_chromium",
+  "services": {
+    "spot_trading": {
+      "status": "available",
+      "url": "https://www.binance.com/en/markets/overview",
+      "screenshot": "data\\vasp_data\\evidence\\binance_spot_trading_2026-01-31.png",
+      "matched_keyword": "markets",
+      "notes": "Found via keyword matching: \"markets\"",
+      "confidence": "high"
+    },
+    "margin_trading": {
+      "status": "uncertain",
+      "url": "https://www./en/trade/BTC_USDT?theme=light&type=spot",
+      "screenshot": null,
+      "matched_keyword": "margin",
+      "notes": "Found in navigation but page load failed: page.goto: net::ERR_NAME_NOT_RESOLVED at https://www./en/trade/BTC_USDT?theme=light&type=spot\nCall log:\n\u001b[2m  - navigating to \"https://www./en/trade/BTC_USDT?theme=light&type=spot\", waiting until \"domcontentloaded\"\u001b[22m\n",
+      "confidence": "medium"
+    },
+    "futures": {
+      "status": "uncertain",
+      "url": "https://www./en/futures",
+      "screenshot": null,
+      "matched_keyword": "futures",
+      "notes": "Found in navigation but page load failed: page.goto: net::ERR_NAME_NOT_RESOLVED at https://www./en/futures\nCall log:\n\u001b[2m  - navigating to \"https://www./en/futures\", waiting until \"domcontentloaded\"\u001b[22m\n",
+      "confidence": "medium"
+    },
+    "options": {
+      "status": "available",
+      "url": "https://www.binance.com/en/download",
+      "screenshot": "data\\vasp_data\\evidence\\binance_options_2026-01-31.png",
+      "matched_keyword": "more download options",
+      "notes": "Found via keyword matching: \"more download options\"",
+      "confidence": "high"
+    },
+    "leveraged_tokens": {
+      "status": "not_found",
+      "url": null,
+      "screenshot": null,
+      "matched_keyword": null,
+      "notes": "No matches found for keywords: leveraged tokens, etf, btcdown, btcup, 3x, 5x",
+      "confidence": "high"
+    },
+    "otc_desk": {
+      "status": "available",
+      "url": "https://www.binance.com/en/otc",
+      "screenshot": "data\\vasp_data\\evidence\\binance_otc_desk_2026-01-31.png",
+      "matched_keyword": "otc trading",
+      "notes": "Found via keyword matching: \"otc trading\"",
+      "confidence": "high"
+    },
+    "trading_bots": {
+      "status": "not_found",
+      "url": null,
+      "screenshot": null,
+      "matched_keyword": null,
+      "notes": "No matches found for keywords: trading bots, strategy trading, automated trading, bot",
+      "confidence": "high"
+    },
+    "copy_trading": {
+      "status": "not_found",
+      "url": null,
+      "screenshot": null,
+      "matched_keyword": null,
+      "notes": "No matches found for keywords: copy trading, social trading, copy trade, follow traders",
+      "confidence": "high"
+    },
+    "grid_trading": {
+      "status": "not_found",
+      "url": null,
+      "screenshot": null,
+      "matched_keyword": null,
+      "notes": "No matches found for keywords: grid, grid bot, futures grid, spot grid",
+      "confidence": "high"
+    },
+    "auto_investing": {
+      "status": "not_found",
+      "url": null,
+      "screenshot": null,
+      "matched_keyword": null,
+      "notes": "No matches found for keywords: auto invest, dca, recurring buy, dollar cost averaging, automatic",
+      "confidence": "high"
+    },
+    "crypto_staking": {
+      "status": "available",
+      "url": "https://www.binance.com/en/square/post/35829110147298",
+      "screenshot": "data\\vasp_data\\evidence\\binance_crypto_staking_2026-01-31.png",
+      "matched_keyword": "bnb drops below 810 usdt with a 4.75% decrease in 24 hours",
+      "notes": "Found via keyword matching: \"bnb drops below 810 usdt with a 4.75% decrease in 24 hours\"",
+      "confidence": "high"
+    },
+    "saving_accounts": {
+      "status": "uncertain",
+      "url": "https://www./en/earn",
+      "screenshot": null,
+      "matched_keyword": "earn",
+      "notes": "Found in navigation but page load failed: page.goto: net::ERR_NAME_NOT_RESOLVED at https://www./en/earn\nCall log:\n\u001b[2m  - navigating to \"https://www./en/earn\", waiting until \"domcontentloaded\"\u001b[22m\n",
+      "confidence": "medium"
+    },
+    "crypto_loans": {
+      "status": "not_found",
+      "url": null,
+      "screenshot": null,
+      "matched_keyword": null,
+      "notes": "No matches found for keywords: loan, borrow, collateral, crypto loan",
+      "confidence": "high"
+    },
+    "cloud_mining": {
+      "status": "not_found",
+      "url": null,
+      "screenshot": null,
+      "matched_keyword": null,
+      "notes": "No matches found for keywords: cloud mining, mining pool, hash power",
+      "confidence": "high"
+    },
+    "yield_farming": {
+      "status": "not_found",
+      "url": null,
+      "screenshot": null,
+      "matched_keyword": null,
+      "notes": "No matches found for keywords: yield farming, liquidity farming, farm, defi earn",
+      "confidence": "high"
+    },
+    "liquidity_pools": {
+      "status": "uncertain",
+      "url": "https://www./en/price/binance-alpha",
+      "screenshot": null,
+      "matched_keyword": "binance alpha",
+      "notes": "Found in navigation but page load failed: page.goto: net::ERR_NAME_NOT_RESOLVED at https://www./en/price/binance-alpha\nCall log:\n\u001b[2m  - navigating to \"https://www./en/price/binance-alpha\", waiting until \"domcontentloaded\"\u001b[22m\n",
+      "confidence": "medium"
+    },
+    "launchpad": {
+      "status": "uncertain",
+      "url": "https://launchpad./en",
+      "screenshot": null,
+      "matched_keyword": "binance launchpool",
+      "notes": "Found in navigation but page load failed: page.goto: net::ERR_NAME_NOT_RESOLVED at https://launchpad./en\nCall log:\n\u001b[2m  - navigating to \"https://launchpad./en\", waiting until \"domcontentloaded\"\u001b[22m\n",
+      "confidence": "medium"
+    },
+    "launchpool": {
+      "status": "uncertain",
+      "url": "https://launchpad./en",
+      "screenshot": null,
+      "matched_keyword": "binance launchpool",
+      "notes": "Found in navigation but page load failed: page.goto: net::ERR_NAME_NOT_RESOLVED at https://launchpad./en\nCall log:\n\u001b[2m  - navigating to \"https://launchpad./en\", waiting until \"domcontentloaded\"\u001b[22m\n",
+      "confidence": "medium"
+    },
+    "airdrops": {
+      "status": "available",
+      "url": "https://www.binance.com/en/airdrop",
+      "screenshot": "data\\vasp_data\\evidence\\binance_airdrops_2026-01-31.png",
+      "matched_keyword": "binance airdrop portal",
+      "notes": "Found via keyword matching: \"binance airdrop portal\"",
+      "confidence": "high"
+    },
+    "nft_marketplace": {
+      "status": "uncertain",
+      "url": "https://www./en/nft/home",
+      "screenshot": null,
+      "matched_keyword": "binance nft",
+      "notes": "Found in navigation but page load failed: page.goto: net::ERR_NAME_NOT_RESOLVED at https://www./en/nft/home\nCall log:\n\u001b[2m  - navigating to \"https://www./en/nft/home\", waiting until \"domcontentloaded\"\u001b[22m\n",
+      "confidence": "medium"
+    },
+    "nft_loans": {
+      "status": "not_found",
+      "url": null,
+      "screenshot": null,
+      "matched_keyword": null,
+      "notes": "No matches found for keywords: nft loan, nft collateral, nft lending",
+      "confidence": "high"
+    },
+    "nft_staking": {
+      "status": "not_found",
+      "url": null,
+      "screenshot": null,
+      "matched_keyword": null,
+      "notes": "No matches found for keywords: nft staking, nft stake, nft rewards",
+      "confidence": "high"
+    },
+    "crypto_cards": {
+      "status": "available",
+      "url": "https://www.binance.com/en/cards/dashboard",
+      "screenshot": "data\\vasp_data\\evidence\\binance_crypto_cards_2026-01-31.png",
+      "matched_keyword": "card",
+      "notes": "Found via keyword matching: \"card\"",
+      "confidence": "high"
+    },
+    "gift_cards": {
+      "status": "available",
+      "url": "https://www.binance.com/en/gift-card",
+      "screenshot": "data\\vasp_data\\evidence\\binance_gift_cards_2026-01-31.png",
+      "matched_keyword": "gift card",
+      "notes": "Found via keyword matching: \"gift card\"",
+      "confidence": "high"
+    },
+    "custody_services": {
+      "status": "available",
+      "url": "https://www.binance.com/en/vip-institutional-services",
+      "screenshot": "data\\vasp_data\\evidence\\binance_custody_services_2026-01-31.png",
+      "matched_keyword": "institutional & vip services",
+      "notes": "Found via keyword matching: \"institutional & vip services\"",
+      "confidence": "high"
+    },
+    "dapp_connectivity": {
+      "status": "not_found",
+      "url": null,
+      "screenshot": null,
+      "matched_keyword": null,
+      "notes": "No matches found for keywords: dapp, web3, wallet connect, dapp browser, connect wallet",
+      "confidence": "high"
+    },
+    "referral_program": {
+      "status": "available",
+      "url": "https://www.binance.com/en/activity/referral?stopRedirectToActivity=true",
+      "screenshot": "data\\vasp_data\\evidence\\binance_referral_program_2026-01-31.png",
+      "matched_keyword": "affiliate",
+      "notes": "Found via keyword matching: \"affiliate\"",
+      "confidence": "high"
+    },
+    "educational_services": {
+      "status": "uncertain",
+      "url": "https://www./en/support/faq",
+      "screenshot": null,
+      "matched_keyword": "learning",
+      "notes": "Found in navigation but page load failed: page.goto: net::ERR_NAME_NOT_RESOLVED at https://www./en/support/faq\nCall log:\n\u001b[2m  - navigating to \"https://www./en/support/faq\", waiting until \"domcontentloaded\"\u001b[22m\n",
+      "confidence": "medium"
+    },
+    "learn_and_earn": {
+      "status": "available",
+      "url": "https://academy.binance.com/en/learn-and-earn",
+      "screenshot": "data\\vasp_data\\evidence\\binance_learn_and_earn_2026-01-31.png",
+      "matched_keyword": "learn & earn",
+      "notes": "Found via keyword matching: \"learn & earn\"",
+      "confidence": "high"
+    },
+    "tax_assistance": {
+      "status": "not_found",
+      "url": null,
+      "screenshot": null,
+      "matched_keyword": null,
+      "notes": "No matches found for keywords: tax, tax report, tax api, 1099, tax tool",
+      "confidence": "high"
+    },
+    "gambling": {
+      "status": "not_found",
+      "url": null,
+      "screenshot": null,
+      "matched_keyword": null,
+      "notes": "No matches found for keywords: casino, gambling, betting, gamblefi, gaming",
+      "confidence": "high"
+    },
+    "prediction_markets": {
+      "status": "available",
+      "url": "https://www.binance.com/en/price-prediction",
+      "screenshot": "data\\vasp_data\\evidence\\binance_prediction_markets_2026-01-31.png",
+      "matched_keyword": "browse crypto price predictions",
+      "notes": "Found via keyword matching: \"browse crypto price predictions\"",
+      "confidence": "high"
+    }
+  },
+  "summary": {
+    "total_services_checked": 32,
+    "services_available": 11,
+    "services_not_found": 13,
+    "services_uncertain": 8,
+    "coverage_percentage": 34.4
+  }
+}
