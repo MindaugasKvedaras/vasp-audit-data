@@ -13,89 +13,59 @@ vasp-audit-data/
 ├── README.md                    # This file
 ├── LICENSE                      # License
 ├── .gitignore                   # Git ignore rules
-├── data/
-│   ├── services/
-│   │   └── vasp-services.md     # Definition of 32 standard VASP services
-│   ├── reports/                 # JSON audit reports
-│   │   ├── binance_*.json
-│   │   ├── bitget_*.json
-│   │   ├── robinhood_*.json
-│   │   ├── bitfinex_*.json
-│   │   └── gateio_*.json
-│   └── evidence/                # Screenshot evidence (PNG)
-│       └── [vasp]_[service]_*.png
-├── audits/                      # Markdown summary reports
-│   ├── binance.md
-│   ├── bitget.md
-│   ├── robinhood.md
-│   ├── bitfinex.md
-│   └── gateio.md
-└── scripts/                     # Utility scripts
-    └── generate-summary.js
+├── vasp-services.md             # Definition of 32 standard VASP services
+├── VASP_Binance/                # Binance audit data
+│   ├── report.json              # JSON audit report
+│   ├── report.md                # Markdown summary report
+│   └── evidence/                # Screenshot evidence
+│       └── *.png
+├── VASP_Bitget/                 # Bitget audit data
+│   ├── report.json
+│   ├── report.md
+│   └── evidence/
+├── VASP_Robinhood/              # Robinhood audit data
+│   ├── report.json
+│   ├── report.md
+│   └── evidence/
+├── VASP_Bitfinex/               # Bitfinex audit data
+│   ├── report.json
+│   ├── report.md
+│   └── evidence/
+├── VASP_Gateio/                 # Gate.io audit data
+│   ├── report.json
+│   ├── report.md
+│   └── evidence/
+└── VASP_Coinbase/               # Coinbase audit data
+    ├── report.json
+    ├── report.md
+    └── evidence/
 ```
 
 ## 📈 Current Audits
 
-| VASP | Services Found | Coverage | Date |
-|------|---------------|----------|------|
-| Binance | 11/32 | 34.4% | 2026-01-31 |
-| Bitget | 14/32 | 43.8% | 2026-01-31 |
-| Robinhood | 4/32 | 12.5% | 2026-01-31 |
-| Bitfinex | 11/32 | 34.4% | 2026-01-31 |
-| Gate.io | 17/32 | 53.1% | 2026-02-01 |
+| VASP | Services Found | Coverage | Date | Folder |
+|------|---------------|----------|------|--------|
+| Binance | 11/32 | 34.4% | 2026-01-31 | `VASP_Binance/` |
+| Bitget | 14/32 | 43.8% | 2026-01-31 | `VASP_Bitget/` |
+| Robinhood | 4/32 | 12.5% | 2026-01-31 | `VASP_Robinhood/` |
+| Bitfinex | 11/32 | 34.4% | 2026-01-31 | `VASP_Bitfinex/` |
+| Gate.io | 17/32 | 53.1% | 2026-02-01 | `VASP_Gateio/` |
+| Coinbase | 11/32 | 34.4% | 2026-01-31 | `VASP_Coinbase/` |
 
 ## 🔍 Services Checked
 
-The audit checks for 32 standard VASP services:
+See [vasp-services.md](./vasp-services.md) for the complete list of 32 standard VASP services being audited.
 
-### Trading Services
-- Spot Trading
-- Margin Trading
-- Futures
-- Options
-- Leveraged Tokens
+### Service Categories
 
-### Automation & Copy Trading
-- Trading Bots
-- Copy Trading
-- Grid Trading
-- Auto Investing (DCA)
-
-### Financial Services
-- OTC Desk
-- P2P Platform
-- Crypto Staking
-- Saving Accounts
-- Crypto Loans
-- Cloud Mining
-
-### DeFi & Yield
-- Yield Farming
-- Liquidity Pools
-- Launchpad
-- Launchpool
-- Airdrops
-
-### NFT Services
-- NFT Marketplace
-- NFT Loans
-- NFT Staking
-
-### Payment & Cards
-- Crypto Debit/Credit Cards
-- Gift Card / Red Envelope
-
-### Institutional & Business
-- Custody Services
-- dApp Connectivity
-- Referral/Affiliate Programs
-
-### Education & Tools
-- Educational Services
-- Learn and Earn
-- Tax Assistance
-- Gambling
-- Prediction Markets
+- **Trading Services:** Spot, Margin, Futures, Options, Leveraged Tokens
+- **Automation:** Trading Bots, Copy Trading, Grid Trading, Auto Investing
+- **Financial:** OTC, P2P, Staking, Savings, Loans
+- **DeFi & Yield:** Yield Farming, Liquidity Pools, Launchpad, Launchpool
+- **NFT:** Marketplace, NFT Loans, NFT Staking
+- **Payments:** Crypto Cards, Gift Cards
+- **Institutional:** Custody, dApp Connectivity, Affiliate Programs
+- **Tools:** Education, Tax Assistance, Gambling, Prediction Markets
 
 ## 📸 Evidence
 
@@ -110,15 +80,16 @@ Each service verification includes:
 ### View Audit Report
 ```bash
 # Read a specific VASP report
-cat data/reports/gateio_2026-02-01.json | jq .
+cat VASP_Gateio/report.json | jq .
 
 # View markdown summary
-cat audits/gateio.md
+cat VASP_Gateio/report.md
 ```
 
-### Generate Statistics
+### View Screenshots
 ```bash
-node scripts/generate-summary.js
+# List all evidence for a VASP
+ls VASP_Gateio/evidence/
 ```
 
 ## 🤖 Audit Methodology
