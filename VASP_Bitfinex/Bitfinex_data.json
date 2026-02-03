@@ -1,0 +1,40 @@
+{
+  "vaspId": "183b5a19-a7db-425c-8cef-cef70b41c565",
+  "commonName": "Bitfinex",
+  "url": "https://www.bitfinex.com/",
+  "vaspServices": [
+    {
+      "service": "Spot Trading"
+    },
+    {
+      "service": "Margin Trading"
+    },
+    {
+      "service": "Otc Desk"
+    },
+    {
+      "service": "Crypto Staking"
+    },
+    {
+      "service": "Saving Accounts"
+    },
+    {
+      "service": "Crypto Loans"
+    },
+    {
+      "service": "Liquidity Pools"
+    },
+    {
+      "service": "Crypto Cards"
+    },
+    {
+      "service": "Custody Services"
+    },
+    {
+      "service": "Referral Program"
+    },
+    {
+      "service": "Educational Services"
+    }
+  ]
+}
