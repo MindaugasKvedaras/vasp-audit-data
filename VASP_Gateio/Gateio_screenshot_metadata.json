@@ -1,0 +1,104 @@
+[
+  {
+    "name": "gateio_spot_trading_2026-02-01.png",
+    "image": "gateio_spot_trading_2026-02-01.png",
+    "description": "Service evidence screenshot for Spot Trading",
+    "id": "14ba875b-fa21-4052-bc9f-d789222d109f"
+  },
+  {
+    "name": "gateio_margin_trading_2026-02-01.png",
+    "image": "gateio_margin_trading_2026-02-01.png",
+    "description": "Service evidence screenshot for Margin Trading",
+    "id": "bdd8a933-88cd-4583-8179-e54a586ecd12"
+  },
+  {
+    "name": "gateio_futures_2026-02-01.jpg",
+    "image": "gateio_futures_2026-02-01.jpg",
+    "description": "Service evidence screenshot for Futures",
+    "id": "4ad5db32-4d72-40cf-9277-0bdcb5716bf5"
+  },
+  {
+    "name": "gateio_options_2026-02-01.png",
+    "image": "gateio_options_2026-02-01.png",
+    "description": "Service evidence screenshot for Options",
+    "id": "ce4db39e-7261-40c8-b8f3-016ab8c3d016"
+  },
+  {
+    "name": "gateio_leveraged_tokens_2026-02-01.jpg",
+    "image": "gateio_leveraged_tokens_2026-02-01.jpg",
+    "description": "Service evidence screenshot for Leveraged Tokens",
+    "id": "7c395889-846e-4388-8d90-d60662ce4b17"
+  },
+  {
+    "name": "gateio_otc_desk_2026-02-01.jpg",
+    "image": "gateio_otc_desk_2026-02-01.jpg",
+    "description": "Service evidence screenshot for OTC Desk",
+    "id": "a0d3acb6-83ca-46f6-8b40-bee13bee8b59"
+  },
+  {
+    "name": "gateio_p2p_2026-02-01.jpg",
+    "image": "gateio_p2p_2026-02-01.jpg",
+    "description": "Service evidence screenshot for P2P Platform",
+    "id": "3949a8d5-5ffc-4aae-bf5a-d4a062549246"
+  },
+  {
+    "name": "gateio_staking_2026-02-01.jpg",
+    "image": "gateio_staking_2026-02-01.jpg",
+    "description": "Service evidence screenshot for Crypto Staking",
+    "id": "6f8facd2-a694-44c4-9d1a-9e46f7e3c292"
+  },
+  {
+    "name": "gateio_savings_2026-02-01.jpg",
+    "image": "gateio_savings_2026-02-01.jpg",
+    "description": "Service evidence screenshot for Saving Accounts",
+    "id": "10685a65-3e91-424a-a9c2-ff7503e644a7"
+  },
+  {
+    "name": "gateio_launchpad_2026-02-01.jpg",
+    "image": "gateio_launchpad_2026-02-01.jpg",
+    "description": "Service evidence screenshot for Launchpad",
+    "id": "eb2b5ee8-1ea9-4912-9450-a27c7b05c2b6"
+  },
+  {
+    "name": "gateio_launchpool_2026-02-01.jpg",
+    "image": "gateio_launchpool_2026-02-01.jpg",
+    "description": "Service evidence screenshot for Launchpool",
+    "id": "8c1c03b9-9112-4dd7-abb9-24ae010ba9d2"
+  },
+  {
+    "name": "gateio_nft_marketplace_2026-02-01.jpg",
+    "image": "gateio_nft_marketplace_2026-02-01.jpg",
+    "description": "Service evidence screenshot for NFT Marketplace",
+    "id": "928a4201-4404-48c4-b391-ace993e23d73"
+  },
+  {
+    "name": "gateio_gift_card_2026-02-01.jpg",
+    "image": "gateio_gift_card_2026-02-01.jpg",
+    "description": "Service evidence screenshot for Gift Card / Red Envelope",
+    "id": "818ebb7e-ac25-4b96-85db-ef11709627d8"
+  },
+  {
+    "name": "gateio_crypto_card_2026-02-01.jpg",
+    "image": "gateio_crypto_card_2026-02-01.jpg",
+    "description": "Service evidence screenshot for Crypto Debit/Credit Cards",
+    "id": "01774071-9433-4e5d-b167-f4c3e4123170"
+  },
+  {
+    "name": "gateio_web3_dapp_2026-02-01.png",
+    "image": "gateio_web3_dapp_2026-02-01.png",
+    "description": "Service evidence screenshot for dApp Connectivity",
+    "id": "a897b2d3-567b-4d1e-a84c-5a6e61d51a6e"
+  },
+  {
+    "name": "gateio_referral_2026-02-01.jpg",
+    "image": "gateio_referral_2026-02-01.jpg",
+    "description": "Service evidence screenshot for Referral/Affiliate Programs",
+    "id": "4761454c-628c-4dfa-a7e6-fdfc0c4dbe88"
+  },
+  {
+    "name": "gateio_educational_2026-02-01.jpg",
+    "image": "gateio_educational_2026-02-01.jpg",
+    "description": "Service evidence screenshot for Educational Services",
+    "id": "50fd6662-451d-40b0-92d0-4a3693f7cd67"
+  }
+]
