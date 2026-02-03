@@ -1,0 +1,62 @@
+[
+  {
+    "name": "spot_trading",
+    "url": "https://trading.bitfinex.com/trading?demo=true&type=exchange",
+    "description": "URL for spot trading",
+    "id": "ae27992b-b1e1-4352-af6d-bb222eb3a697"
+  },
+  {
+    "name": "margin_trading",
+    "url": "https://trading.bitfinex.com/trading?demo=true&type=margin",
+    "description": "URL for margin trading",
+    "id": "ebba2d84-fb0e-43bc-b2e4-4c2a577661b2"
+  },
+  {
+    "name": "otc_desk",
+    "url": "https://trading.bitfinex.com/otc",
+    "description": "URL for otc desk",
+    "id": "9358b365-658b-475e-b8a5-5b857ea634fa"
+  },
+  {
+    "name": "crypto_staking",
+    "url": "https://staking.bitfinex.com/",
+    "description": "URL for crypto staking",
+    "id": "d07138dc-d8da-471a-972d-7d679c5aedcb"
+  },
+  {
+    "name": "saving_accounts",
+    "url": "https://www.bitfinex.com/mobile-trading/",
+    "description": "URL for saving accounts",
+    "id": "a845f268-986f-47aa-9c2f-c37317259f2e"
+  },
+  {
+    "name": "crypto_loans",
+    "url": "https://www.bitfinex.com/borrow/",
+    "description": "URL for crypto loans",
+    "id": "2860ac93-1ded-4038-b173-649ff67dab96"
+  },
+  {
+    "name": "liquidity_pools",
+    "url": "https://www.bitfinex.com/bitfinex-alpha/",
+    "description": "URL for liquidity pools",
+    "id": "a8a97dd6-8113-45c7-b996-56b672942b7b"
+  },
+  {
+    "name": "custody_services",
+    "url": "https://www.bitfinex.com/pro/",
+    "description": "URL for custody services",
+    "id": "3c409db5-9dfe-497c-ade6-96d827b4a6e7"
+  },
+  {
+    "name": "referral_program",
+    "url": "https://www.bitfinex.com/affiliates/",
+    "description": "URL for referral program",
+    "id": "fdcc99ca-6944-4bea-a928-2103ab72f8b2"
+  },
+  {
+    "name": "educational_services",
+    "url": "https://www.bitfinex.com/mobile-trading/",
+    "description": "URL for educational services",
+    "id": "11d4d3b2-d5b2-4d1c-9ab9-f518045e9e5f"
+  }
+]
