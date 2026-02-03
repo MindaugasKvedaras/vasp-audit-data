@@ -1,0 +1,272 @@
+{
+  "vasp": "HTX",
+  "domain": "https://www.htx.com/",
+  "audit_timestamp": "2026-02-03T13:54:15.533Z",
+  "analyst": "Cody2 (AI Assistant)",
+  "method": "playwright_chromium",
+  "services": {
+    "spot_trading": {
+      "status": "available",
+      "url": "https://www.htx.com/en-us/download/#exchange",
+      "screenshot": "data\\vasp_data\\evidence\\htx_spot_trading_2026-02-03.png",
+      "matched_keyword": "more options",
+      "notes": "Found via keyword matching: \"more options\"",
+      "confidence": "high"
+    },
+    "margin_trading": {
+      "status": "uncertain",
+      "url": "https://www.htx.com/en-us/margin/",
+      "screenshot": null,
+      "matched_keyword": "margin",
+      "notes": "Found in navigation but page load failed: page.goto: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.htx.com/en-us/margin/\", waiting until \"networkidle\"\u001b[22m\n",
+      "confidence": "medium"
+    },
+    "futures": {
+      "status": "available",
+      "url": "https://www.htx.com/en-us/futures/linear_swap/exchange#contract_code=BTC-USDT&contract_type=swap&type=cross",
+      "screenshot": "data\\vasp_data\\evidence\\htx_futures_2026-02-03.png",
+      "matched_keyword": "futures\nupgrade your experience by trading futures",
+      "notes": "Found via keyword matching: \"futures\nupgrade your experience by trading futures\"",
+      "confidence": "high"
+    },
+    "options": {
+      "status": "available",
+      "url": "https://www.htx.com/en-us/download/#exchange",
+      "screenshot": "data\\vasp_data\\evidence\\htx_options_2026-02-03.png",
+      "matched_keyword": "more options",
+      "notes": "Found via keyword matching: \"more options\"",
+      "confidence": "high"
+    },
+    "leveraged_tokens": {
+      "status": "not_found",
+      "url": null,
+      "screenshot": null,
+      "matched_keyword": null,
+      "notes": "No matches found for keywords: leveraged tokens, etf, btcdown, btcup, 3x, 5x",
+      "confidence": "high"
+    },
+    "otc_desk": {
+      "status": "uncertain",
+      "url": "https://www.htx.com/en-us/financial/loan-otc",
+      "screenshot": null,
+      "matched_keyword": "liquidity boost",
+      "notes": "Found in navigation but page load failed: page.goto: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.htx.com/en-us/financial/loan-otc\", waiting until \"networkidle\"\u001b[22m\n",
+      "confidence": "medium"
+    },
+    "trading_bots": {
+      "status": "available",
+      "url": "https://www.htx.com/en-us/grid-exchange/",
+      "screenshot": "data\\vasp_data\\evidence\\htx_trading_bots_2026-02-03.png",
+      "matched_keyword": "spot bots",
+      "notes": "Found via keyword matching: \"spot bots\"",
+      "confidence": "high"
+    },
+    "copy_trading": {
+      "status": "uncertain",
+      "url": "https://www.htx.com/en-us/futures/copy_trading/home/",
+      "screenshot": null,
+      "matched_keyword": "copy trading",
+      "notes": "Found in navigation but page load failed: page.goto: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.htx.com/en-us/futures/copy_trading/home/\", waiting until \"networkidle\"\u001b[22m\n",
+      "confidence": "medium"
+    },
+    "grid_trading": {
+      "status": "available",
+      "url": "https://www.htx.com/en-us/grid-exchange/",
+      "screenshot": "data\\vasp_data\\evidence\\htx_grid_trading_2026-02-03.png",
+      "matched_keyword": "spot bots",
+      "notes": "Found via keyword matching: \"spot bots\"",
+      "confidence": "high"
+    },
+    "auto_investing": {
+      "status": "not_found",
+      "url": null,
+      "screenshot": null,
+      "matched_keyword": null,
+      "notes": "No matches found for keywords: auto invest, dca, recurring buy, dollar cost averaging, automatic",
+      "confidence": "high"
+    },
+    "crypto_staking": {
+      "status": "available",
+      "url": "https://www.htx.com/en-us/feed/news/1478342/",
+      "screenshot": "data\\vasp_data\\evidence\\htx_crypto_staking_2026-02-03.png",
+      "matched_keyword": "huang licheng's long positions in eth and hype have been partially liquidated again, with cumulative losses exceeding $26.23 million.",
+      "notes": "Found via keyword matching: \"huang licheng's long positions in eth and hype have been partially liquidated again, with cumulative losses exceeding $26.23 million.\"",
+      "confidence": "high"
+    },
+    "saving_accounts": {
+      "status": "available",
+      "url": "https://www.htx.com/en-us/feed/news/1478380/",
+      "screenshot": "data\\vasp_data\\evidence\\htx_saving_accounts_2026-02-03.png",
+      "matched_keyword": "milan: the federal reserve needs to cut interest rates by about 1 percentage point this year.",
+      "notes": "Found via keyword matching: \"milan: the federal reserve needs to cut interest rates by about 1 percentage point this year.\"",
+      "confidence": "high"
+    },
+    "crypto_loans": {
+      "status": "uncertain",
+      "url": "https://www.htx.com/en-us/financial/loan",
+      "screenshot": null,
+      "matched_keyword": "collateral swap",
+      "notes": "Found in navigation but page load failed: page.goto: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.htx.com/en-us/financial/loan\", waiting until \"networkidle\"\u001b[22m\n",
+      "confidence": "medium"
+    },
+    "cloud_mining": {
+      "status": "not_found",
+      "url": null,
+      "screenshot": null,
+      "matched_keyword": null,
+      "notes": "No matches found for keywords: cloud mining, mining pool, hash power",
+      "confidence": "high"
+    },
+    "yield_farming": {
+      "status": "not_found",
+      "url": null,
+      "screenshot": null,
+      "matched_keyword": null,
+      "notes": "No matches found for keywords: yield farming, liquidity farming, farm, defi earn",
+      "confidence": "high"
+    },
+    "liquidity_pools": {
+      "status": "available",
+      "url": "https://www.htx.com/support/en-us/",
+      "screenshot": "data\\vasp_data\\evidence\\htx_liquidity_pools_2026-02-03.png",
+      "matched_keyword": "help center",
+      "notes": "Found via keyword matching: \"help center\"",
+      "confidence": "high"
+    },
+    "launchpad": {
+      "status": "not_found",
+      "url": null,
+      "screenshot": null,
+      "matched_keyword": null,
+      "notes": "No matches found for keywords: launchpad, ieo, initial exchange, token launch",
+      "confidence": "high"
+    },
+    "launchpool": {
+      "status": "not_found",
+      "url": null,
+      "screenshot": null,
+      "matched_keyword": null,
+      "notes": "No matches found for keywords: launchpool, launch pool",
+      "confidence": "high"
+    },
+    "airdrops": {
+      "status": "not_found",
+      "url": null,
+      "screenshot": null,
+      "matched_keyword": null,
+      "notes": "No matches found for keywords: airdrop, reward hub, free token, candy drop",
+      "confidence": "high"
+    },
+    "nft_marketplace": {
+      "status": "not_found",
+      "url": null,
+      "screenshot": null,
+      "matched_keyword": null,
+      "notes": "No matches found for keywords: nft, non-fungible, nft marketplace",
+      "confidence": "high"
+    },
+    "nft_loans": {
+      "status": "not_found",
+      "url": null,
+      "screenshot": null,
+      "matched_keyword": null,
+      "notes": "No matches found for keywords: nft loan, nft collateral, nft lending",
+      "confidence": "high"
+    },
+    "nft_staking": {
+      "status": "not_found",
+      "url": null,
+      "screenshot": null,
+      "matched_keyword": null,
+      "notes": "No matches found for keywords: nft staking, nft stake, nft rewards",
+      "confidence": "high"
+    },
+    "crypto_cards": {
+      "status": "not_found",
+      "url": null,
+      "screenshot": null,
+      "matched_keyword": null,
+      "notes": "No matches found for keywords: crypto card, debit card, credit card, visa card, mastercard card, payment card, physical card, virtual card",
+      "confidence": "high"
+    },
+    "gift_cards": {
+      "status": "not_found",
+      "url": null,
+      "screenshot": null,
+      "matched_keyword": null,
+      "notes": "No matches found for keywords: gift card, voucher, red envelope, crypto gift",
+      "confidence": "high"
+    },
+    "custody_services": {
+      "status": "available",
+      "url": "https://www.htx.com/en-us/institutions",
+      "screenshot": "data\\vasp_data\\evidence\\htx_custody_services_2026-02-03.png",
+      "matched_keyword": "institutional services",
+      "notes": "Found via keyword matching: \"institutional services\"",
+      "confidence": "high"
+    },
+    "dapp_connectivity": {
+      "status": "not_found",
+      "url": null,
+      "screenshot": null,
+      "matched_keyword": null,
+      "notes": "No matches found for keywords: dapp, web3, wallet connect, dapp browser, connect wallet",
+      "confidence": "high"
+    },
+    "referral_program": {
+      "status": "available",
+      "url": "https://www.htx.com/en-us/topic/examination",
+      "screenshot": "data\\vasp_data\\evidence\\htx_referral_program_2026-02-03.png",
+      "matched_keyword": "referral",
+      "notes": "Found via keyword matching: \"referral\"",
+      "confidence": "high"
+    },
+    "educational_services": {
+      "status": "available",
+      "url": "https://www.htx.com/en-us/views/learn",
+      "screenshot": "data\\vasp_data\\evidence\\htx_educational_services_2026-02-03.png",
+      "matched_keyword": "htx learn",
+      "notes": "Found via keyword matching: \"htx learn\"",
+      "confidence": "high"
+    },
+    "learn_and_earn": {
+      "status": "not_found",
+      "url": null,
+      "screenshot": null,
+      "matched_keyword": null,
+      "notes": "No matches found for keywords: learn and earn, learn & earn, earn rewards",
+      "confidence": "high"
+    },
+    "tax_assistance": {
+      "status": "not_found",
+      "url": null,
+      "screenshot": null,
+      "matched_keyword": null,
+      "notes": "No matches found for keywords: tax, tax report, tax api, 1099, tax tool",
+      "confidence": "high"
+    },
+    "gambling": {
+      "status": "not_found",
+      "url": null,
+      "screenshot": null,
+      "matched_keyword": null,
+      "notes": "No matches found for keywords: casino, gambling, betting, gamblefi, gaming",
+      "confidence": "high"
+    },
+    "prediction_markets": {
+      "status": "not_found",
+      "url": null,
+      "screenshot": null,
+      "matched_keyword": null,
+      "notes": "No matches found for keywords: prediction, forecast, predict, prediction market",
+      "confidence": "high"
+    }
+  },
+  "summary": {
+    "total_services_checked": 32,
+    "services_available": 11,
+    "services_not_found": 17,
+    "services_uncertain": 4,
+    "coverage_percentage": 34.4
+  }
+}
