@@ -1,0 +1,104 @@
+[
+  {
+    "name": "Spot Trading",
+    "url": "https://www.gate.com/trade/BTC_USDT",
+    "description": "URL for Spot Trading",
+    "id": "4ec5b1b4-99e8-4173-bffe-cabfbb1fa086"
+  },
+  {
+    "name": "Margin Trading",
+    "url": "https://www.gate.com/trade/BTC_USDT?type=cross",
+    "description": "URL for Margin Trading",
+    "id": "23ea0ecb-7b8c-405d-b070-54c6ecc6d5b3"
+  },
+  {
+    "name": "Futures",
+    "url": "https://www.gate.com/futures",
+    "description": "URL for Futures",
+    "id": "9d8dfff1-10ae-4327-ab37-39f320374d4c"
+  },
+  {
+    "name": "Options",
+    "url": "https://www.gate.com/options/BTC_USDT",
+    "description": "URL for Options",
+    "id": "8752a39f-81fa-4bba-bc28-531a0cb28fe6"
+  },
+  {
+    "name": "Leveraged Tokens",
+    "url": "https://www.gate.com/leveraged-etf",
+    "description": "URL for Leveraged Tokens",
+    "id": "c6768657-83a5-45aa-98fa-345e34c458a2"
+  },
+  {
+    "name": "OTC Desk",
+    "url": "https://www.gate.com/otc",
+    "description": "URL for OTC Desk",
+    "id": "5546c310-3371-4353-b91a-bbd9b48a0d41"
+  },
+  {
+    "name": "P2P Platform",
+    "url": "https://www.gate.com/p2p",
+    "description": "URL for P2P Platform",
+    "id": "ee6f3f69-93b6-4102-ac6c-fd5d1b2603d6"
+  },
+  {
+    "name": "Crypto Staking",
+    "url": "https://www.gate.com/staking",
+    "description": "URL for Crypto Staking",
+    "id": "fdb99ade-460b-4b6b-9191-fc39609f2204"
+  },
+  {
+    "name": "Saving Accounts",
+    "url": "https://www.gate.com/simple-earn",
+    "description": "URL for Saving Accounts",
+    "id": "4bbf0131-8c34-425d-a1bc-1dc8551b7718"
+  },
+  {
+    "name": "Launchpad",
+    "url": "https://www.gate.com/launchpad",
+    "description": "URL for Launchpad",
+    "id": "641b5c86-61ef-4940-a6fe-cbf5f834584e"
+  },
+  {
+    "name": "Launchpool",
+    "url": "https://www.gate.com/launchpool",
+    "description": "URL for Launchpool",
+    "id": "a0f25a3c-ea0e-4a30-8af4-3d6ba8abe9c7"
+  },
+  {
+    "name": "NFT Marketplace",
+    "url": "https://www.gate.com/nft",
+    "description": "URL for NFT Marketplace",
+    "id": "8bc349a9-cf5c-43b2-bc97-bce80def6788"
+  },
+  {
+    "name": "Gift Card / Red Envelope",
+    "url": "https://www.gate.com/gift-card",
+    "description": "URL for Gift Card / Red Envelope",
+    "id": "569a565a-fcd7-42c4-9dc2-cb78634a19d3"
+  },
+  {
+    "name": "Crypto Debit/Credit Cards",
+    "url": "https://www.gate.com/card",
+    "description": "URL for Crypto Debit/Credit Cards",
+    "id": "bd0147e6-8083-4a7a-94b4-c21e02f2cbef"
+  },
+  {
+    "name": "dApp Connectivity",
+    "url": "https://web3.gate.com/",
+    "description": "URL for dApp Connectivity",
+    "id": "da20346b-e9f1-49fd-aade-57a05937317c"
+  },
+  {
+    "name": "Referral/Affiliate Programs",
+    "url": "https://www.gate.com/referral/super-rebate",
+    "description": "URL for Referral/Affiliate Programs",
+    "id": "02973d28-0368-4b80-9cac-ab30a465d58e"
+  },
+  {
+    "name": "Educational Services",
+    "url": "https://www.gate.com/learn",
+    "description": "URL for Educational Services",
+    "id": "6103335d-66a1-483b-8d96-ab667b986c40"
+  }
+]

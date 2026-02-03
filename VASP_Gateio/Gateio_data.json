@@ -1,0 +1,58 @@
+{
+  "vaspId": "587ed628-6bb7-49af-9411-6f5dc2f1131b",
+  "commonName": "Gate.io",
+  "url": "https://www.gate.com/",
+  "vaspServices": [
+    {
+      "service": "Spot Trading"
+    },
+    {
+      "service": "Margin Trading"
+    },
+    {
+      "service": "Futures"
+    },
+    {
+      "service": "Options"
+    },
+    {
+      "service": "Leveraged Tokens"
+    },
+    {
+      "service": "OTC Desk"
+    },
+    {
+      "service": "P2P Platform"
+    },
+    {
+      "service": "Crypto Staking"
+    },
+    {
+      "service": "Saving Accounts"
+    },
+    {
+      "service": "Launchpad"
+    },
+    {
+      "service": "Launchpool"
+    },
+    {
+      "service": "NFT Marketplace"
+    },
+    {
+      "service": "Gift Card / Red Envelope"
+    },
+    {
+      "service": "Crypto Debit/Credit Cards"
+    },
+    {
+      "service": "dApp Connectivity"
+    },
+    {
+      "service": "Referral/Affiliate Programs"
+    },
+    {
+      "service": "Educational Services"
+    }
+  ]
+}
